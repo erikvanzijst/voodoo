@@ -1,0 +1,393 @@
+/****************************************************************************
+** OptionWidget meta object code from reading C++ file 'voodoo.cc'
+**
+** Created: Fri Jun 5 03:07:20 1998
+**      by: The Qt Meta Object Compiler ($Revision: 2.18 $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#define Q_MOC_OUTPUT_REVISION 2
+#elif Q_MOC_OUTPUT_REVISION != 2
+#error Moc format conflict - please regenerate all moc files
+#endif
+
+#include <qmetaobj.h>
+
+
+const char *OptionWidget::className() const
+{
+    return "OptionWidget";
+}
+
+QMetaObject *OptionWidget::metaObj = 0;
+
+void OptionWidget::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( strcmp(QDialog::className(), "QDialog") != 0 )
+	badSuperclassWarning("OptionWidget","QDialog");
+    if ( !QDialog::metaObject() )
+	QDialog::initMetaObject();
+    typedef void(OptionWidget::*m1_t0)();
+    typedef void(OptionWidget::*m1_t1)();
+    typedef void(OptionWidget::*m1_t2)(const char*);
+    m1_t0 v1_0 = &OptionWidget::option_close;
+    m1_t1 v1_1 = &OptionWidget::change_nick;
+    m1_t2 v1_2 = &OptionWidget::option_nick_changed;
+    QMetaData *slot_tbl = new QMetaData[3];
+    slot_tbl[0].name = "option_close()";
+    slot_tbl[1].name = "change_nick()";
+    slot_tbl[2].name = "option_nick_changed(const char*)";
+    slot_tbl[0].ptr = *((QMember*)&v1_0);
+    slot_tbl[1].ptr = *((QMember*)&v1_1);
+    slot_tbl[2].ptr = *((QMember*)&v1_2);
+    metaObj = new QMetaObject( "OptionWidget", "QDialog",
+	slot_tbl, 3,
+	0, 0 );
+}
+
+
+const char *LayoutWidget::className() const
+{
+    return "LayoutWidget";
+}
+
+QMetaObject *LayoutWidget::metaObj = 0;
+
+void LayoutWidget::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( strcmp(QDialog::className(), "QDialog") != 0 )
+	badSuperclassWarning("LayoutWidget","QDialog");
+    if ( !QDialog::metaObject() )
+	QDialog::initMetaObject();
+    typedef void(LayoutWidget::*m1_t0)();
+    m1_t0 v1_0 = &LayoutWidget::layout_close;
+    QMetaData *slot_tbl = new QMetaData[1];
+    slot_tbl[0].name = "layout_close()";
+    slot_tbl[0].ptr = *((QMember*)&v1_0);
+    metaObj = new QMetaObject( "LayoutWidget", "QDialog",
+	slot_tbl, 1,
+	0, 0 );
+}
+
+
+const char *AddWidget::className() const
+{
+    return "AddWidget";
+}
+
+QMetaObject *AddWidget::metaObj = 0;
+
+void AddWidget::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( strcmp(QDialog::className(), "QDialog") != 0 )
+	badSuperclassWarning("AddWidget","QDialog");
+    if ( !QDialog::metaObject() )
+	QDialog::initMetaObject();
+    typedef void(AddWidget::*m1_t0)();
+    typedef void(AddWidget::*m1_t1)();
+    typedef void(AddWidget::*m1_t2)();
+    typedef void(AddWidget::*m1_t3)();
+    m1_t0 v1_0 = &AddWidget::nick_return_pressed;
+    m1_t1 v1_1 = &AddWidget::dns_return_pressed;
+    m1_t2 v1_2 = &AddWidget::add_close;
+    m1_t3 v1_3 = &AddWidget::insert_user;
+    QMetaData *slot_tbl = new QMetaData[4];
+    slot_tbl[0].name = "nick_return_pressed()";
+    slot_tbl[1].name = "dns_return_pressed()";
+    slot_tbl[2].name = "add_close()";
+    slot_tbl[3].name = "insert_user()";
+    slot_tbl[0].ptr = *((QMember*)&v1_0);
+    slot_tbl[1].ptr = *((QMember*)&v1_1);
+    slot_tbl[2].ptr = *((QMember*)&v1_2);
+    slot_tbl[3].ptr = *((QMember*)&v1_3);
+    metaObj = new QMetaObject( "AddWidget", "QDialog",
+	slot_tbl, 4,
+	0, 0 );
+}
+
+
+const char *EditWidget::className() const
+{
+    return "EditWidget";
+}
+
+QMetaObject *EditWidget::metaObj = 0;
+
+void EditWidget::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( strcmp(QDialog::className(), "QDialog") != 0 )
+	badSuperclassWarning("EditWidget","QDialog");
+    if ( !QDialog::metaObject() )
+	QDialog::initMetaObject();
+    typedef void(EditWidget::*m1_t0)();
+    typedef void(EditWidget::*m1_t1)();
+    typedef void(EditWidget::*m1_t2)();
+    typedef void(EditWidget::*m1_t3)();
+    m1_t0 v1_0 = &EditWidget::nick_return_pressed;
+    m1_t1 v1_1 = &EditWidget::dns_return_pressed;
+    m1_t2 v1_2 = &EditWidget::edit_close;
+    m1_t3 v1_3 = &EditWidget::update_user;
+    QMetaData *slot_tbl = new QMetaData[4];
+    slot_tbl[0].name = "nick_return_pressed()";
+    slot_tbl[1].name = "dns_return_pressed()";
+    slot_tbl[2].name = "edit_close()";
+    slot_tbl[3].name = "update_user()";
+    slot_tbl[0].ptr = *((QMember*)&v1_0);
+    slot_tbl[1].ptr = *((QMember*)&v1_1);
+    slot_tbl[2].ptr = *((QMember*)&v1_2);
+    slot_tbl[3].ptr = *((QMember*)&v1_3);
+    metaObj = new QMetaObject( "EditWidget", "QDialog",
+	slot_tbl, 4,
+	0, 0 );
+}
+
+
+const char *AcceptInvite::className() const
+{
+    return "AcceptInvite";
+}
+
+QMetaObject *AcceptInvite::metaObj = 0;
+
+void AcceptInvite::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( strcmp(QDialog::className(), "QDialog") != 0 )
+	badSuperclassWarning("AcceptInvite","QDialog");
+    if ( !QDialog::metaObject() )
+	QDialog::initMetaObject();
+    typedef void(AcceptInvite::*m1_t0)();
+    typedef void(AcceptInvite::*m1_t1)();
+    typedef void(AcceptInvite::*m1_t2)();
+    m1_t0 v1_0 = &AcceptInvite::accept_invite;
+    m1_t1 v1_1 = &AcceptInvite::reject_invite;
+    m1_t2 v1_2 = &AcceptInvite::change_popup_menu;
+    QMetaData *slot_tbl = new QMetaData[3];
+    slot_tbl[0].name = "accept_invite()";
+    slot_tbl[1].name = "reject_invite()";
+    slot_tbl[2].name = "change_popup_menu()";
+    slot_tbl[0].ptr = *((QMember*)&v1_0);
+    slot_tbl[1].ptr = *((QMember*)&v1_1);
+    slot_tbl[2].ptr = *((QMember*)&v1_2);
+    typedef void(AcceptInvite::*m2_t0)();
+    m2_t0 v2_0 = &AcceptInvite::chat_mode_changed;
+    QMetaData *signal_tbl = new QMetaData[1];
+    signal_tbl[0].name = "chat_mode_changed()";
+    signal_tbl[0].ptr = *((QMember*)&v2_0);
+    metaObj = new QMetaObject( "AcceptInvite", "QDialog",
+	slot_tbl, 3,
+	signal_tbl, 1 );
+}
+
+// SIGNAL chat_mode_changed
+void AcceptInvite::chat_mode_changed()
+{
+    activate_signal( "chat_mode_changed()" );
+}
+
+
+const char *ConnectWidget::className() const
+{
+    return "ConnectWidget";
+}
+
+QMetaObject *ConnectWidget::metaObj = 0;
+
+void ConnectWidget::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( strcmp(QWidget::className(), "QWidget") != 0 )
+	badSuperclassWarning("ConnectWidget","QWidget");
+    if ( !QWidget::metaObject() )
+	QWidget::initMetaObject();
+    typedef void(ConnectWidget::*m1_t0)();
+    typedef void(ConnectWidget::*m1_t1)();
+    typedef void(ConnectWidget::*m1_t2)();
+    typedef void(ConnectWidget::*m1_t3)();
+    typedef void(ConnectWidget::*m1_t4)();
+    typedef void(ConnectWidget::*m1_t5)();
+    typedef void(ConnectWidget::*m1_t6)();
+    typedef void(ConnectWidget::*m1_t7)(const char*);
+    typedef void(ConnectWidget::*m1_t8)();
+    typedef void(ConnectWidget::*m1_t9)();
+    m1_t0 v1_0 = &ConnectWidget::connect_close;
+    m1_t1 v1_1 = &ConnectWidget::connect2host;
+    m1_t2 v1_2 = &ConnectWidget::update_line_edit;
+    m1_t3 v1_3 = &ConnectWidget::add_user;
+    m1_t4 v1_4 = &ConnectWidget::delete_user;
+    m1_t5 v1_5 = &ConnectWidget::edit_user;
+    m1_t6 v1_6 = &ConnectWidget::receive_data;
+    m1_t7 v1_7 = &ConnectWidget::connect_available;
+    m1_t8 v1_8 = &ConnectWidget::change_popup_menu;
+    m1_t9 v1_9 = &ConnectWidget::change_remote_ip;
+    QMetaData *slot_tbl = new QMetaData[10];
+    slot_tbl[0].name = "connect_close()";
+    slot_tbl[1].name = "connect2host()";
+    slot_tbl[2].name = "update_line_edit()";
+    slot_tbl[3].name = "add_user()";
+    slot_tbl[4].name = "delete_user()";
+    slot_tbl[5].name = "edit_user()";
+    slot_tbl[6].name = "receive_data()";
+    slot_tbl[7].name = "connect_available(const char*)";
+    slot_tbl[8].name = "change_popup_menu()";
+    slot_tbl[9].name = "change_remote_ip()";
+    slot_tbl[0].ptr = *((QMember*)&v1_0);
+    slot_tbl[1].ptr = *((QMember*)&v1_1);
+    slot_tbl[2].ptr = *((QMember*)&v1_2);
+    slot_tbl[3].ptr = *((QMember*)&v1_3);
+    slot_tbl[4].ptr = *((QMember*)&v1_4);
+    slot_tbl[5].ptr = *((QMember*)&v1_5);
+    slot_tbl[6].ptr = *((QMember*)&v1_6);
+    slot_tbl[7].ptr = *((QMember*)&v1_7);
+    slot_tbl[8].ptr = *((QMember*)&v1_8);
+    slot_tbl[9].ptr = *((QMember*)&v1_9);
+    typedef void(ConnectWidget::*m2_t0)();
+    m2_t0 v2_0 = &ConnectWidget::chat_mode_changed;
+    QMetaData *signal_tbl = new QMetaData[1];
+    signal_tbl[0].name = "chat_mode_changed()";
+    signal_tbl[0].ptr = *((QMember*)&v2_0);
+    metaObj = new QMetaObject( "ConnectWidget", "QWidget",
+	slot_tbl, 10,
+	signal_tbl, 1 );
+}
+
+// SIGNAL chat_mode_changed
+void ConnectWidget::chat_mode_changed()
+{
+    activate_signal( "chat_mode_changed()" );
+}
+
+
+const char *ChatWidget::className() const
+{
+    return "ChatWidget";
+}
+
+QMetaObject *ChatWidget::metaObj = 0;
+
+void ChatWidget::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( strcmp(QWidget::className(), "QWidget") != 0 )
+	badSuperclassWarning("ChatWidget","QWidget");
+    if ( !QWidget::metaObject() )
+	QWidget::initMetaObject();
+    typedef void(ChatWidget::*m1_t0)();
+    typedef void(ChatWidget::*m1_t1)();
+    typedef void(ChatWidget::*m1_t2)();
+    typedef void(ChatWidget::*m1_t3)();
+    typedef void(ChatWidget::*m1_t4)();
+    typedef void(ChatWidget::*m1_t5)();
+    typedef void(ChatWidget::*m1_t6)();
+    typedef void(ChatWidget::*m1_t7)();
+    typedef void(ChatWidget::*m1_t8)();
+    typedef void(ChatWidget::*m1_t9)();
+    typedef void(ChatWidget::*m1_t10)();
+    typedef void(ChatWidget::*m1_t11)();
+    typedef void(ChatWidget::*m1_t12)();
+    typedef void(ChatWidget::*m1_t13)(const char*);
+    typedef void(ChatWidget::*m1_t14)();
+    m1_t0 v1_0 = &ChatWidget::parser;
+    m1_t1 v1_1 = &ChatWidget::make_connection;
+    m1_t2 v1_2 = &ChatWidget::options;
+    m1_t3 v1_3 = &ChatWidget::layout;
+    m1_t4 v1_4 = &ChatWidget::invitewindow;
+    m1_t5 v1_5 = &ChatWidget::handle_inc;
+    m1_t6 v1_6 = &ChatWidget::deal_with_data;
+    m1_t7 v1_7 = &ChatWidget::disconnect;
+    m1_t8 v1_8 = &ChatWidget::change_popup_menu;
+    m1_t9 v1_9 = &ChatWidget::exit_program;
+    m1_t10 v1_10 = &ChatWidget::help;
+    m1_t11 v1_11 = &ChatWidget::about;
+    m1_t12 v1_12 = &ChatWidget::aboutQt;
+    m1_t13 v1_13 = &ChatWidget::nick_double_clicked;
+    m1_t14 v1_14 = &ChatWidget::remove_splash;
+    QMetaData *slot_tbl = new QMetaData[15];
+    slot_tbl[0].name = "parser()";
+    slot_tbl[1].name = "make_connection()";
+    slot_tbl[2].name = "options()";
+    slot_tbl[3].name = "layout()";
+    slot_tbl[4].name = "invitewindow()";
+    slot_tbl[5].name = "handle_inc()";
+    slot_tbl[6].name = "deal_with_data()";
+    slot_tbl[7].name = "disconnect()";
+    slot_tbl[8].name = "change_popup_menu()";
+    slot_tbl[9].name = "exit_program()";
+    slot_tbl[10].name = "help()";
+    slot_tbl[11].name = "about()";
+    slot_tbl[12].name = "aboutQt()";
+    slot_tbl[13].name = "nick_double_clicked(const char*)";
+    slot_tbl[14].name = "remove_splash()";
+    slot_tbl[0].ptr = *((QMember*)&v1_0);
+    slot_tbl[1].ptr = *((QMember*)&v1_1);
+    slot_tbl[2].ptr = *((QMember*)&v1_2);
+    slot_tbl[3].ptr = *((QMember*)&v1_3);
+    slot_tbl[4].ptr = *((QMember*)&v1_4);
+    slot_tbl[5].ptr = *((QMember*)&v1_5);
+    slot_tbl[6].ptr = *((QMember*)&v1_6);
+    slot_tbl[7].ptr = *((QMember*)&v1_7);
+    slot_tbl[8].ptr = *((QMember*)&v1_8);
+    slot_tbl[9].ptr = *((QMember*)&v1_9);
+    slot_tbl[10].ptr = *((QMember*)&v1_10);
+    slot_tbl[11].ptr = *((QMember*)&v1_11);
+    slot_tbl[12].ptr = *((QMember*)&v1_12);
+    slot_tbl[13].ptr = *((QMember*)&v1_13);
+    slot_tbl[14].ptr = *((QMember*)&v1_14);
+    typedef void(ChatWidget::*m2_t0)();
+    m2_t0 v2_0 = &ChatWidget::chat_mode_changed;
+    QMetaData *signal_tbl = new QMetaData[1];
+    signal_tbl[0].name = "chat_mode_changed()";
+    signal_tbl[0].ptr = *((QMember*)&v2_0);
+    metaObj = new QMetaObject( "ChatWidget", "QWidget",
+	slot_tbl, 15,
+	signal_tbl, 1 );
+}
+
+// SIGNAL chat_mode_changed
+void ChatWidget::chat_mode_changed()
+{
+    activate_signal( "chat_mode_changed()" );
+}
+
+
+const char *PrivateWidget::className() const
+{
+    return "PrivateWidget";
+}
+
+QMetaObject *PrivateWidget::metaObj = 0;
+
+void PrivateWidget::initMetaObject()
+{
+    if ( metaObj )
+	return;
+    if ( strcmp(QWidget::className(), "QWidget") != 0 )
+	badSuperclassWarning("PrivateWidget","QWidget");
+    if ( !QWidget::metaObject() )
+	QWidget::initMetaObject();
+    typedef void(PrivateWidget::*m1_t0)();
+    typedef void(PrivateWidget::*m1_t1)();
+    m1_t0 v1_0 = &PrivateWidget::private_parser;
+    m1_t1 v1_1 = &PrivateWidget::send_sound;
+    QMetaData *slot_tbl = new QMetaData[2];
+    slot_tbl[0].name = "private_parser()";
+    slot_tbl[1].name = "send_sound()";
+    slot_tbl[0].ptr = *((QMember*)&v1_0);
+    slot_tbl[1].ptr = *((QMember*)&v1_1);
+    metaObj = new QMetaObject( "PrivateWidget", "QWidget",
+	slot_tbl, 2,
+	0, 0 );
+}
